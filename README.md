@@ -14,9 +14,13 @@ A professional Bash Script for analysing system and security logs with an intera
 ## Demo Screenshots
 
 ![ Demo Screenshot 1](screenshot-1.png)
+
 ![ Demo Screenshot 2](screenshot-2.png)
+
 ![ Demo Screenshot 3](screenshot-3.png)
+
 ![ Demo Screenshot 4](screenshot-4.png)
+
 
 ## How to Use 
 
@@ -49,6 +53,8 @@ chmod u+x log_analyzer.sh
 6. Exit
 
 ## Project Structure
+
+```bash 
 .
 ├── log_analyzer.sh          # Main script
 ├── reports/                 # Generated analysis reports
@@ -56,6 +62,7 @@ chmod u+x log_analyzer.sh
 ├── server.log               # Sample log file
 ├── screenshot-*.png         # Demo screenshots
 └── README.md
+```
 
 ## How It Works 
 - This tool relies primarily on awk and grep for fast, dependency free text processing.
