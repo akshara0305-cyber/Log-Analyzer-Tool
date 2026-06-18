@@ -12,10 +12,13 @@ A professional Bash Script for analyzing system and security logs with an intera
 - Colorful and user friendly output 
 - Robust error handling 
 
-![ Demo Screenshot 1] (screenshot-1.png)
-![ Demo Screenshot 2] (screenshot-2.png)
-![ Demo Screenshot 3] (screenshot-3.png)
-![ Demo Screenshot 4] (screenshot-4.png)
+![ Demo Screenshot 1](screenshot-1.png) 
+
+![ Demo Screenshot 2](screenshot-2.png)
+
+![ Demo Screenshot 3](screenshot-3.png)
+
+![ Demo Screenshot 4](screenshot-4.png)
 
 ## How to Use 
 
