@@ -1,21 +1,28 @@
-Log Analyzer Tool
-A professional Bash Script for analyzing system and security logs with an interactive interface.
+# Log Analyzer Tool
 
-## Features 
+A professional Bash script for analyzing system and security logs with an interactive interface.
 
-- Interactive menu driven interface 
-- Log level summary ( INFO, WARNING, ERROR)
-- Recent error detection 
-- Unique IP Address extraction 
-- Keyword search functionality 
+![Demo Screenshot 1](screenshot-1.png)
+![Demo Screenshot 2](screenshot-2.png)
+![Demo Screenshot 3](screenshot-3.png)
+![Demo Screenshot 4](screenshot-4.png)
+
+## Features
+
+- Interactive menu-driven interface
+- Log level summary (INFO, WARNING, ERROR counts)
+- Recent error detection
+- Unique IP address extraction
+- Keyword search functionality
 - Built-in logging system
-- Colorful and user friendly output 
-- Robust error handling 
+- Colorful and user-friendly output
+- Robust error handling
 
-![ Demo Screenshot 1] (screenshot-1.png)
-![ Demo Screenshot 2] (screenshot-2.png)
-![ Demo Screenshot 3] (screenshot-3.png)
-![ Demo Screenshot 4] (screenshot-4.png)
+## How to Use
+
+### Basic Usage
+```bash
+./log_analyzer.sh -f server.log
 
 ## How to Use 
 
