@@ -1,0 +1,22 @@
+# Ignore log files
+*.log
+*.txt
+critical.log
+error_summary.txt
+log_report.txt
+updated.log
+server.log
+pdated.log
+
+# Ignore generated folders
+reports/
+logs/
+
+# Ignore practice files
+awk_practice.txt
+practice.txt
+sed_practice.txt
+*.updated.log
+
+# Ignore temporary files
+*.bak
