@@ -1,69 +1,65 @@
-Log Analyzer Tool
-A professional Bash Script for analyzing system and security logs with an interactive interface.
+# Log Analyzer Tool
+A professional Bash Script for analysing system and security logs with an interactive interface.
 
-## Features 
+## Features
+- Interactive menu driven interface
+- Log level summary (INFO, ERROR, WARNING)
+- Recent error detection
+- Unique IP Address extraction
+- Keyword search functionality
+- Build-in logging system
+- Colorful and user friendly output
+- Robust error handling
 
-- Interactive menu driven interface 
-- Log level summary ( INFO, WARNING, ERROR)
-- Recent error detection 
-- Unique IP Address extraction 
-- Keyword search functionality 
-- Built-in logging system
-- Colorful and user friendly output 
-- Robust error handling 
+# Demo Screenshots
 
-![ Demo Screenshot 1](screenshot-1.png) 
-
+![ Demo Screenshot 1](screenshot-1.png)
 ![ Demo Screenshot 2](screenshot-2.png)
-
 ![ Demo Screenshot 3](screenshot-3.png)
-
 ![ Demo Screenshot 4](screenshot-4.png)
 
-## How to Use 
+# How to Use 
 
-# Prerequisites 
-- Linux System 
-- Basic terminal knowledge 
+#Prerequisites
+- Linux System
+- Basic Terminal knowledge
 
 # Installation 
 '''bash 
 git clone https://github.com/yourusername/log-analyzer-tool.git
 cd log-analyzer-tool
-chmod u+x log_analyzer.sh 
+chmod u+x log_analyzer.sh
 
-## USAGE
+# Usage 
 
-# Basic Usage
-./log_analyzer.sh -f filename 
+# Basic Usage 
+./log_analyzer.sh -f filename
 
-# Show help 
+# Show Help 
 ./log_analyzer.sh -h 
 
-
 ## MENU OPTIONS 
-1. Show Summary 
-2. Show Recent Errors 
+1. Show Summary
+2. Show Recent Errors
 3. Show Unique IP Address
-4. Search Keyword 
-5. Generate Full Report 
+4. Search Keyword
+5. Generate Full Report
 6. Exit
 
-## PROJECT STRUCTRE
-
+# Project Structure
 .
 ├── log_analyzer.sh          # Main script
 ├── reports/                 # Generated analysis reports
 ├── logs/                    # Tool activity logs
-├── server.log               # Sample log file (for testing)
+├── server.log               # Sample log file
 ├── screenshot-*.png         # Demo screenshots
 └── README.md
 
-# HOW IT WORKS 
--  This tool relies primarily on awk and grep for fast, dependency-free text processing.
--  Summary and report counts use awk pattern matching ERROR, INFO and WARNING keywords. 
--  IP extraction using regex pattern.
--  getopts for command line parsing.
+## How It Works 
+- This tool relies primarily on awk and grep for fast, dependency free text processing.
+- Summary and report counts use awk pattern matching ERROR, INFO and WARNING keywords.
+- IP extraction using regex pattern.
+- getopts for command line parsing.
 
-## AUTHOR 
-  Akshara | BCA Student 
+## AUTHOR
+   Akshara | BCA Student 
