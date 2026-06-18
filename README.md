@@ -11,31 +11,31 @@ A professional Bash Script for analysing system and security logs with an intera
 - Colorful and user friendly output
 - Robust error handling
 
-# Demo Screenshots
+## Demo Screenshots
 
 ![ Demo Screenshot 1](screenshot-1.png)
 ![ Demo Screenshot 2](screenshot-2.png)
 ![ Demo Screenshot 3](screenshot-3.png)
 ![ Demo Screenshot 4](screenshot-4.png)
 
-# How to Use 
+## How to Use 
 
-#Prerequisites
+### Prerequisites
 - Linux System
 - Basic Terminal knowledge
 
-# Installation 
+### Installation 
 '''bash 
 git clone https://github.com/yourusername/log-analyzer-tool.git
 cd log-analyzer-tool
 chmod u+x log_analyzer.sh
 
-# Usage 
+## Usage 
 
-# Basic Usage 
+### Basic Usage 
 ./log_analyzer.sh -f filename
 
-# Show Help 
+### Show Help 
 ./log_analyzer.sh -h 
 
 ## MENU OPTIONS 
@@ -46,7 +46,7 @@ chmod u+x log_analyzer.sh
 5. Generate Full Report
 6. Exit
 
-# Project Structure
+## Project Structure
 .
 ├── log_analyzer.sh          # Main script
 ├── reports/                 # Generated analysis reports
