@@ -12,10 +12,10 @@ A professional Bash Script for analyzing system and security logs with an intera
 - Colorful and user friendly output 
 - Robust error handling 
 
-# Demo Screenshot 1 (screenshot-1.png)
-# Demo Screenshot 2 (screenshot-2.png)
-# Demo Screenshot 3 (screenshot-3.png)
-# Demo Screenshot 4 (screenshot-4.png)
+![ Demo Screenshot 1] (screenshot-1.png)
+![ Demo Screenshot 2] (screenshot-2.png)
+![ Demo Screenshot 3] (screenshot-3.png)
+![ Demo Screenshot 4] (screenshot-4.png)
 
 ## How to Use 
 
@@ -46,12 +46,14 @@ chmod u+x log_analyzer.sh
 5. Generate Full Report 
 6. Exit
 
-## PROJECT STRUCTURE 
+## PROJECT STRUCTRE
+
 .
 ├── log_analyzer.sh          # Main script
 ├── reports/                 # Generated analysis reports
 ├── logs/                    # Tool activity logs
-├── server.log               # Sample log file
+├── server.log               # Sample log file (for testing)
+├── screenshot-*.png         # Demo screenshots
 └── README.md
 
 # HOW IT WORKS 
