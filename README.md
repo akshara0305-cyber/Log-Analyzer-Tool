@@ -24,10 +24,11 @@ A professional Bash Script for analysing system and security logs with an intera
 - Linux System
 - Basic Terminal knowledge
 
-### Installation 
-'''bash 
-git clone https://github.com/yourusername/log-analyzer-tool.git
-cd log-analyzer-tool
+### Installation
+
+```bash
+git clone https://github.com/akshara0305-cyber/Log-Analyzer-Tool.git
+cd Log-Analyzer-Tool
 chmod u+x log_analyzer.sh
 
 ## Usage 
